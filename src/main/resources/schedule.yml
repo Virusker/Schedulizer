@@ -1,0 +1,27 @@
+
+# supported types: once, daily, repeat
+schedules:
+  # One time event
+  first_time_event:
+    enabled: true
+    type: "once"
+    time: "2025-02-08 15:30:00"
+    command:
+    - "say one time event!"
+    - "say Welcome first time!"
+
+  # Daily time event
+  daily_reset:
+    enabled: true
+    type: "daily"
+    time: "12:00:00"
+    command:
+    - "say new Daily!"
+
+  # Repeating event
+  repeating_event:
+    enabled: true
+    type: "repeat"
+    interval: 5  # minute
+    command:
+    - "say Repeating!"

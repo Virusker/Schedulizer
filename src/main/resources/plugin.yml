@@ -1,0 +1,13 @@
+name: Schedulizer
+version: '1.0'
+main: me.virusker.schedulizer.Schedulizer
+author: Kh4n
+api-version: '1.21'
+
+commands:
+  Schedulizer:
+    description: "This is a command"
+    usage: "/Schedulizer"
+    aliases: [ Schedulizer ]
+    permission: op
+    permission-message: "You do not have permission to use this command"
