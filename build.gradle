@@ -2,8 +2,8 @@ plugins {
     id 'java'
 }
 
-group = 'me.virusker'
-version = '1.0'
+group = 'io.github.virusker.schedulizer'
+version = '1.1'
 
 repositories {
     mavenCentral()
